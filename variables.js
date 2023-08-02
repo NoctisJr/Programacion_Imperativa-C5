@@ -45,7 +45,7 @@ let saludoBien = `hola ${nombre} como estas?`
 // Operadores COMPARACION
 
 console.log(n1==n2); // comparacion simple
-console.log(n1===n2); // comparacion estricta
+console.log(n1===n2); // comparacion simple
 console.log(n1!=n2);
 console.log(n1>n2);
 console.log(n1<n2);
