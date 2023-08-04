@@ -52,4 +52,27 @@ console.log(n1<n2);
 console.log(n1>=n2);
 console.log(n1<=n2);
 
+// OPERADORES LOGICOS 
+
+//FALSYS -> 0
+//TRUTHYS -> 1 
+
+
+//  ***AND -> &&
+
+//SE QUEDA CON EL ULTIMO TRUE
+//SE QUEDA CON EL PRIMER FALSO
+let estaLogueado = true;
+let esAdmin = false;
+
+let tienePermiso = estaLogueado === true && esAdmin === true;
+
+// *** OR -> || 
+tienePermiso = estaLogueado === true || esAdmin === true;
+
+// *** NOT -> !
+let f = false;
+console.log(!f)
+
+
 
