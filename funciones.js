@@ -46,3 +46,23 @@ function sumar (n1, n2) {
 let res2 = sumar(nro1,nro2);
 console.log(res2);
 
+
+//FUNCION EXPRESADA -- ANONIMA
+
+const restar = function (a,b) { // se guarda en variable. 
+    return a-b;
+};
+
+let resultadoResta = restar(10,4);
+console.log(resultadoResta);
+
+//FUNCION EXPRESADA -- FLECHA
+
+const multiplicarX5 = numero => numero *5; // para funciones simples de una linea.
+
+
+let resultadoMultiplicarX5 = multiplicarX5(3);
+console.log(resultadoMultiplicarX5);
+
+
+
